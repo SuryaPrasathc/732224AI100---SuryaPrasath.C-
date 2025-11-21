@@ -1,2 +1,11 @@
 - Sign in into N8N
-
+-Open n8n and click New Workflow.
+-Add a Webhook node as the trigger.
+-Set the Webhook HTTP Method to GET.
+-Copy the Test Webhook URL.
+-Add an Email or Gmail node.
+-Connect Webhook node to Email node.
+-Enter sender, receiver, subject, and message in Email settings.
+-Set up your email credentials in the node.
+-Click Activate to make the workflow live.
+-Use the Webhook URL inside your button onclick function.
